@@ -41,7 +41,7 @@ export const home = [
 ]
 export const about = [
   {
-    desc: "Meu nome é Julia Laurie, sou formada em engenharia de software, pós graduada em gestão de projetos e tenho como paixão a construção e desenvolvimento de sites e layoutes através de metodologias atuas de UX/UI, desenvolvo site majoritariamente em React com Next e prefiro estilizar através do tailwind",
+    desc: "Meu nome é Julia Laurie, sou formada em engenharia de software, pós graduada em gestão de projetos e tenho como paixão a construção e desenvolvimento de sites e layoutes através de metodologias atuar de UX/UI, desenvolvo site majoritariamente em React com Next e prefiro estilizar através do tailwind",
     desc1: "",
     cover: "./images/woman.png",
   },
