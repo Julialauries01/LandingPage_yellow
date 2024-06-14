@@ -1,6 +1,8 @@
 import React, { useEffect } from "react"
 import { home } from "../data/dummydata"
 import Typewriter from "typewriter-effect"
+import { Link } from "@mui/material"
+
 
 export const Hero = () => {
   return (
@@ -12,18 +14,14 @@ export const Hero = () => {
               {val.text}
             </h3>
             <h1>
-              <Typewriter
-                options={{
-                  strings: [`${val.name}`, `${val.post}`, `${val.design}`],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
-            </h1>
+  {val.name}
+</h1>
             <p data-aos='fade-left'>{val.desc}</p>
-            <button className='primaryBtn' data-aos='fade-up-right'>
-              Download CV
-            </button>
+            <Link href="https://www.linkedin.com/in/julialauries/" style={{ textDecoration: 'none' }}>
+              <button className='primaryBtn' data-aos='fade-up-right'>
+                Linkedin
+              </button>
+            </Link>
           </div>
         ))}
       </section>

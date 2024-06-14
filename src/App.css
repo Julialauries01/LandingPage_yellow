@@ -7,12 +7,12 @@
 :root {
   --primaryBackground: #212222;
   --secondaryBackground: #2f3030;
-  --primaryColor: #e0a80d;
+  --primaryColor: #dec0f7;
   --greyDark: #7d8792;
   --headingColor: #2d2e2e;
   --white: #fff;
   --black: #000;
-  --sliver: #bac8d3;
+  --sliver: #bac8d9;
 }
 body {
   background-color: var(--headingColor);

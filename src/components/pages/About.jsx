@@ -1,6 +1,8 @@
 import React from "react"
 import { Heading } from "../common/Heading"
 import { about } from "../data/dummydata"
+import { Link } from "@mui/material"
+
 
 export const About = () => {
   return (
@@ -16,8 +18,13 @@ export const About = () => {
                 <Heading title='About Me' />
                 <p>{val.desc}</p>
                 <p>{val.desc1}</p>
-                <button>Download CV</button>
-                <button className='primaryBtn'>Download CV</button>
+                <Link href="https://www.linkedin.com/in/julialauries/" style={{ textDecoration: 'none' }}>
+              <button  data-aos='fade-up-right'>
+                Linkedin
+              </button>
+            </Link>
+
+
               </div>
             </>
           ))}
